@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/extras/templates/work-in-progress/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/extras/templates/work-in-progress/"}
 ---
 
 up::
