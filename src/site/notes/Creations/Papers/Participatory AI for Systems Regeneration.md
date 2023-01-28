@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/creations/papers/participatory-ai-for-systems-regeneration/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/creations/papers/participatory-ai-for-systems-regeneration/"}
 ---
 
 
