@@ -4,6 +4,9 @@ body {
 	that we can	combine all property types including colors
 	and sort alphabetically to maximize readability in
 	the compiled app.css file.
+	
+	Custom styles are added to the end of this file as they
+	are not being picked up in custom.css
 	----------------------------------------------------- */
   /* Animations */
   --anim-duration-none: 0;
@@ -11724,4 +11727,28 @@ input.mobile-vault-chooser-field-input {
   font-size: var(--font-ui-medium);
   width: 100%;
 }
+
+// custom.css styles are added here
+body.colorful-headings {
+    --h1-color: var(--color-yellow);
+    --h2-color: var(--color-orange);
+    --h3-color: var(--color-green);
+    --h4-color: var(--color-green);
+    --h5-color: var(--color-blue);
+    --h6-color: var(--color-purple);
+}
+
+span.cm-strong {color: yellow;}
+
+b, strong, .cm-strong {
+    font-weight: var(--bold-weight);
+    color: yellow;
+}
+
+h4,
+.markdown-rendered h4,
+.HyperMD-header-4,
+.inline-title[data-level='4'],
+.HyperMD-list-line .cm-header-4 {
+  font-variant:normal;}
 
